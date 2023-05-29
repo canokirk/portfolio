@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">KirkHUB</a>
+
+    <nav class="navbar">
+        <a href="#" class="active">HOME</a>
+        <a class="nav-link" href="#about">ABOUT ME</a>
+        <a class="nav-link" href="#gallery">GALLERY</a>
+        <a class="nav-link" href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi, I'm <span>Kirk Patrick Caño</span></h1>
+        <div class="text-animate">
+          <h3>Traditional/Digital Artist</h3>
+        </div>
+        <p>"Creativity knows no limits; it dances freely between colors, shapes, and textures, giving birth to extraordinary masterpieces."</p>
+    </div>
+    <div class="home-sci">
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="heading">ABOUT <span>ME</span></h2>
+
+    <div class="about-img">
+      <img src="image/about.png" alt="">
+      <span class="circle-spin"></span>
+    </div>
+
+    <div class="about-content">
+      <h3>Traditional/Digital Artist</h3>
+      <p>Greetings! I am <span>Kirk Patrick Caño</span>, an aspiring artist. Welcome to my art portfolio, where I invite you to explore my creative world and discover the stories I tell through my artwork. Inspired by the wonders of the world around me, my art draws influences from such as nature, music, culture, or personal experiences. These elements have shaped my artistic style and ignited a deep passion for expressing emotions and narratives through visual art.
+        With a unique artistic style, I specialize in working with acrylics, oils, mixed media, or digital art. I am constantly experimenting with techniques and textures to bring my imagination to life on canvas, paper, or digital platforms.
+      </p>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2 class="heading">GALLERY</h2>
+    <div class="container">
+      <div class="row">
+        <div class="gallery-filter">
+          <span class="filter-item active" data-filter="all">all menu</span>
+          <span class="filter-item" data-filter="digital">digital arts</span>
+          <span class="filter-item" data-filter="traditional">traditional arts</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="gallery-item digital arts">
+        <div class="gallery-item-inner">
+          <img src="image/art (1).jpg" alt="digital">
+          <img src="image/art (2).png" alt="digital">
+          <img src="image/art (3).jpg" alt="digital">
+          <img src="image/art (4).jpg" alt="digital">
+          <img src="image/art (5).jpg" alt="digital">
+          <img src="image/art (6).jpg" alt="digital">
+          <img src="image/art (7).jpg" alt="digital">
+          <img src="image/art (8).jpg" alt="digital">
+          <img src="image/art (9).jpg" alt="digital">
+          <img src="image/art (10).jpg" alt="digital">
+          <img src="image/art (11).jpg" alt="digital">
+          <img src="image/art (12).jpg" alt="digital">
+          <img src="image/art (13).jpg" alt="digital">
+          <img src="image/art (14).jpg" alt="digital">
+          <img src="image/art (15).png" alt="digital">
+          <img src="image/art (16).png" alt="digital">
+          <img src="image/small (2).png" alt="digital">
+          <img src="image/small (3).png" alt="digital">
+          <img src="image/small (4).png" alt="digital">
+          <img src="image/small (5).png" alt="digital">
+          <img src="image/small (6).png" alt="digital">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-item traditional arts">
+      <div class="gallery-item-inner">
+        <img src="image/trad (1).jpg" alt="traditional">
+        <img src="image/trad (2).jpg" alt="traditional">
+        <img src="image/trad (3).jpg" alt="traditional">
+        <img src="image/trad (4).jpg" alt="traditional">
+        <img src="image/trad (5).jpg" alt="traditional">
+        <img src="image/trad (7).jpg" alt="traditional">
+        <img src="image/trad (9).jpg" alt="traditional">
+        <img src="image/trad (10).jpg" alt="traditional">
+        <img src="image/trad (11).jpg" alt="traditional">
+        <img src="image/small (1).jpg" alt="traditional">
+        <img src="image/small (7).jpg" alt="traditional">
+
+      </div>
+  
+  </section>
+  <section class="contact" id="contact">
+    <h2 class="heading">CONTACT <span>ME!</span></h2>
+
+    <form id="contact-form" action="#" method="POST">
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" placeholder="Full Name" required>
+          <span class="focus"></span>
+        </div>
+        <div class="input-field">
+          <input type="text" placeholder="Email Address" required>
+          <span class="focus"></span>
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="input-field">
+          <input type="number" placeholder="Mobile Number" required>
+          <span class="focus"></span>
+        </div>
+        <div class="input-field">
+          <input type="text" placeholder="Email Subject" required>
+          <span class="focus"></span>
+        </div>
+      </div>
+
+      <div class="textarea-field">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <span class="focus"></span>
+      </div>
+
+      <div class="btn-box btns">
+        <a href="#" class="btn">Submit</a>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by KirkHUB | All Rights Reserved</p>
+    </div>
+    
+    <div class="footer-iconTop">
+      <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+  
+  <script src="script.js">all</script>
+</body>
+
+</html>
